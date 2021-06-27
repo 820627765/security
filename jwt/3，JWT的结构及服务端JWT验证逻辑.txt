@@ -1,0 +1,28 @@
+1，JWT 由三段内容组成
+   1）头部(Header)：由两部分组成 {"alg":"签名算法","typ":"令牌类型"} 令牌类型就是 JWT，签名算法可以是HMAC
+                  SHA256、RSA 等。这一段内容会使用Base64进行编码。
+                  {"alg":"HS256","typ":"JWT"}
+
+   2）载荷（Payload）：这部分会包含用户的重要信息，如{"name":"zs","admin":true,......}，这一段也会使用
+                  Base64进行编码。需要注意的是，这里不要存放用户敏感的信息，比如用户密码，因为Base64编码是
+                  可以被解码的。
+
+   3）签名（Signature）：使用头部的签名算法对 base64编码的头部.base64编码的载荷 +  盐值 进行加密的结果。即
+                  Signature = HMACSHA256(base64(header) + "." + base64(payload),盐值)
+                  这里的“盐值” 很重要，就是一把“钥匙”，验证jwt是否有效就靠这个盐值了，如果泄露，设都能伪造
+                  JWT 了，并且还能通过后端服务的验证。
+
+ 最后这三段内容的Base64编码后的内容用逗号拼接（header.payload.signature）后的字符串就是 JWT了。即
+ jwt = base64(header).base64(payload).HMACSHA256(base64(header) + "." + base64(payload),盐值)
+
+
+2，服务端怎么验证JWT有效性的 即 验签？
+1）客户端将 JWT 传给后端服务。
+2）后端服务拿到JWT并解析得到base64加密的  header 和 payload  以及 signature
+3）使用 HMACSHA256(header + "." + payload,盐值) 重新计算一个 签名结果，并使用这个签名结果
+   和第二步解析得到的 signature进行比较，如果相同则有效，否则是非法的jwt。
+   即，如果有非法将 header 或 payload 或 signature 修改了，后端的匹配是一定不对的。所以服务端的“盐值”是一定不能
+   泄密的。
+
+
+

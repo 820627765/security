@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34e42ace-20e3-482e-a66f-1db52e82c332" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\install\apache-maven-3.8.1\repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../install/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\install\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1uRjKm0xKVyFtP8MsSh5RNL0VdO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RunManager">
+    <configuration name="JWTTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.jwt.JWTTest" />
+      <module name="jwt-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.jwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JWTTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34e42ace-20e3-482e-a66f-1db52e82c332" name="Default Changelist" comment="" />
+      <created>1624635233121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624635233121</updated>
+      <workItem from="1624635236264" duration="4320000" />
+      <workItem from="1624778831385" duration="7878000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="367" y="141" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624793068655">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="367" y="141" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1624793068655" />
+    <state x="170" y="92" width="650" height="588" key="#com.intellij.ide.util.MemberChooser" timestamp="1624637114885">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="170" y="92" width="650" height="588" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1624637114885" />
+    <state width="1237" height="323" key="GridCell.Tab.0.bottom" timestamp="1624795321169">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="323" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1624795321169" />
+    <state width="1237" height="323" key="GridCell.Tab.0.center" timestamp="1624795321169">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="323" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1624795321169" />
+    <state width="1237" height="323" key="GridCell.Tab.0.left" timestamp="1624795321168">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="323" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1624795321168" />
+    <state width="1237" height="323" key="GridCell.Tab.0.right" timestamp="1624795321169">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="323" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1624795321169" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1624635343451">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1624635343451" />
+    <state x="28" y="1" key="new project wizard" timestamp="1624793330359">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="28" y="1" key="new project wizard/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1624793330359" />
+    <state x="303" y="1" width="672" height="160" key="search.everywhere.popup" timestamp="1624793373199">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="160" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1624793373199" />
+  </component>
+</project>
